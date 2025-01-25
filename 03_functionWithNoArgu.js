@@ -51,6 +51,15 @@ var res=addition('Abhishek','Beed',88)
 console.log('Result is:',res);
 
 
+
+
+
+
+
+
+
+
+
 function display(){
     return 'learning js';
 }

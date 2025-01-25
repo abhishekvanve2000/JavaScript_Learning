@@ -23,3 +23,17 @@ var sweety='sweety';
 var cutiie='cutiie';
 swap(sweety,cutiie)
 console.log('End Of Program');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
