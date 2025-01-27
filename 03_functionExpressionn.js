@@ -14,7 +14,7 @@ console.log('Type Of Display=>',typeof display);
 
 var addition = function(val1 , val2){
     var result= val1 + val2;
-    console.log(`Addition Is: ${result}`);
+    console.log(`Addition Is: $  {result}`);
 }
 
 addition(25,26)
