@@ -1,39 +1,29 @@
 
 
-
-//In javascript we can save function as a variables value
-var display = function () {
-    console.log('im a angular developwe');
+//function with no argument and no returen value
+var diploy=function(){
+    console.log(`hey siri!`); 
 }
 
-display()
-console.log('Type Of Display=>',typeof display);
+diploy()
+console.log(`Type Of-`,typeof diploy);
 
 
 
+//we can save one functionin inside variable
+var addition = function(num1,num2){
+    var result = num1+num2; 
+    console.log(`addition is: ${result} `);    
+}
+addition(40,20);
 
-var addition = function(val1 , val2){
-    var result= val1 + val2;
-    console.log(`Addition Is: $  {result}`);
+
+
+var wordCoun = function(word){
+    // var words= word.split(" "); 
+    var wordCount= word.length;
+    return wordCount;
 }
 
-addition(25,26)
-
-
-
-
-
-
-
-
-
-
-var wordCount = function(word){
-    var words = word.split("");
-    var wordCount = words.length;
-    console.log(`In Given String - ${word}`);
-    return wordCount;  
-}
-
-var result = wordCount("Im A Angular Developer");
-console.log(`Totalword count is: ${result}`);
+var result = wordCoun('im abhishek vanve');
+console.log(`total number of words is =>    ${result}`);
