@@ -118,3 +118,27 @@ var totalCount=107;
 console.log('Total count=>',totalCount,'type Of TotalCount',typeof totalCount);
 
 
+
+
+
+
+//If Else Assignment 
+
+function res(docheck){
+
+    if (docheck %2=== 0 ) {
+        console.log(`The Given Number  is Even `);
+    } else {
+        console.log(`The Given Number   is Odd `);
+    }
+
+}
+
+res(12);
+res(2);
+res(4);
+res(6);
+res(8);
+res(514);
+res(15);
+
