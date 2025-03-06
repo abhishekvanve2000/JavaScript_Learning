@@ -101,3 +101,45 @@ console.log(array);
 var array=[10,20,30,50,10,80,20];
 array.splice(4,2,33,55,66,77);              //replacing two elements and adding four elements
 console.log(array);
+
+
+
+console.log(`-----Concat-----`);
+let array1=[1,2,3,4,5,6,7];
+let array2=[8,9,10,11,12,13];
+let array3=array1.concat(array2);
+console.log(array3);
+
+
+
+
+console.log(`-----Join-----`);
+let array4=[7,789,4,96,7,89,94,6,132,54];
+let result=array4.join("/");
+console.log(result);
+
+console.log(`-----for of loop----`);
+for (const element of array1) {
+    console.log(element);
+}
+
+
+
+console.log(`-----array resize-----`);
+let array5=[4,8,4,6,1,4,56,7];
+array5.length=4;
+console.log(array5);
+
+console.log(`-----spread operator-----`);
+let array6=[44,56,78,456,56161,456,1261,261];
+console.log(array6);
+console.log(...array6);
+
+
+
+
+
+
+
+
+
