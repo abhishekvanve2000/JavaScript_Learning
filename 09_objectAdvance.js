@@ -20,3 +20,5 @@ const person={
     company:`Infosys`,
     desigination:`Software Engineer`
 }
+
+Object.freeze(person);
