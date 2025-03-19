@@ -150,4 +150,3 @@ console.log(message);
 var firstName='abhishek';
 var lastName='vanve';
 console.log(`firstName is: ${firstName} lastName is: ${lastName}`);  //use of backticks is mandetory for varibale substitution
-
