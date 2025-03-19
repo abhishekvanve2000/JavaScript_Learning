@@ -33,14 +33,15 @@ console.log(`index of 50 is ${indexOff}`);
 
 
 var array=[10,20,30,50,10,80,20];
-console.log(`array transversing`);
+console.log(`array traversing`);
+
 for (let index = 0; index < array.length; index++) {
     const element = array[index];
     console.log(element);   
 }
 
 var array=[10,20,30,50,10,80,20];
-console.log(`array transverse in reverse order`);
+console.log(`array traverse in reverse order`);
 for (let index = array.length-1; index >= 0; index--) {
     const element = array[index];
     console.log(element);   
@@ -140,3 +141,68 @@ let a =[1,2,3,4,5]
 a.splice(3,1,6);
 console.log(a);
 
+let numbers = [20, 5, 100, 40];
+numbers.sort((a, b) => a - b);
+console.log(numbers);  // Output: [5, 20, 40, 100]
+
+
+
+console.log(`___________________Reverse The Array_____________`);
+
+let num = [1, 2, 3];
+num.reverse();
+console.log(num);  // Output: [3, 2, 1]
+
+
+
+let words=[`Sham`,`Ram`,`Anna`,`Golu`];
+words.reverse();
+console.log(words);
+
+
+
+let nummm=[1,2,3,4,56,7,8,9,10];
+nummm.length=4;
+console.log(nummm);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+fruits.forEach(function(fruit, index) {
+    console.log(index + ": " + fruit);
+});
+
+fruits.forEach(function(fruit , index){
+    console.log(`fruit is ${fruit} index of fruit is ${index}`);
+    
+
+});
+
+
+
+
+
+let nu=[1,2,3,4];
+let i=0;
+while (i<nu.length) {
+    console.log(nu[i]);
+    console.log(i);
+    
+    i++
+    }
