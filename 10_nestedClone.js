@@ -13,8 +13,8 @@ let jenny={
     }
 }
 
-let justion=JSON.parse(JSON.stringify(jenny));
+let justion=JSON.parse(JSON.stringify(jenny));      //Deep Clone
 justion.marks.Biology = 50;
 
-console.log(`Justion-${justion.marks.Biology}`);
-console.log(`jenny-${jenny.marks.Biology}`);
+//console.log(`Justion-${justion.marks.Biology}`);
+//console.log(`jenny-${jenny.marks.Biology}`);
