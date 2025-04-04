@@ -6,7 +6,7 @@ for (let index = 1; index <=10; index++) {
          result = result * index;
     
 }
-console.log(`factorial of 10 is ${result}`);
+//console.log(`factorial of 10 is ${result}`);
 
 
 
@@ -18,17 +18,19 @@ console.log(`factorial of 10 is ${result}`);
 // using recursion
 
 
-var fact=1;
+let resultt=1;
 function factorial(num) {
-        //1*2*3*4*5
-    if (num==1) {
+    
+    if (num===1) {
         return 1;
 
     } else {
-     fact = num * factorial(num-1) ; //5   
+      resultt= num * factorial(num-1) ;      //5*(4*(3*(2*(factorial(1)))))   
+      return resultt
+       
     }
      
 }
 
-factorial(5)
-console.log(`factorial using recursion in ${fact}`);
+factorial(10)
+console.log(`factorial using recursion in ${resultt}`);
