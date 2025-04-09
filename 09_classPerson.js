@@ -56,3 +56,11 @@ for (const element of array) {
 }
 
 
+
+//usring for each loop to traverse over class
+
+let array1=[studentAmar,studentManish,studentPrabhu,studentRitik,studentVarad];
+array1.forEach((student,index,array1) => {
+    console.log(student.nameOfstudent,student.collageName);
+    
+});
